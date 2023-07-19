@@ -7,7 +7,7 @@ from streamlit_folium import folium_static
 import folium
 
 
-df = pd.read_csv( 'dataset/train.csv' )
+df = pd.read_csv( '..dataset/train.csv' )
 
 # Limpeza de arquivo
 linhas_vazias = df['ID'] != 'NaN '
